@@ -23,6 +23,26 @@
     "S1":"sacral nerves",
     "S2":"sacral nerves",
     
+    (" II ", " two "), (" III ", " three "), (" V ", " five "),
+    (" 1st", " first"), (" 2nd", " second"), (" 3rd", " third"), (" 4th", " fourth"), (" 5th", " fifth"),
+    (" 6th", " sixth"), (" 7th", " seventh"), (" 8th", " eigth"), (" 9th", " ninth"), (" 10th", " tenth"),
+    ("11th", " eleventh"), (" 12th", " twelfth"),
+    (" 00000", " 0"), (" 0000", " 0"), (" 000", " 0 "), (" 00", " 0"), (" 0 ", " zero "),
+    (" 1 ", " one "), (" 01 ", " one "), (" 2 ", " two "), (" 3 ", " three "), (" 4 ", " four "), (" 5 ", " five "),
+    (" 6 ", " six "), (" 7 ", " seven "), (" 8 ", " eight "), (" 9 ",
+                                                               " nine "), (" 10 ", " ten "), (" 11 ", " eleven "),
+    (' 12 ', ' twelve '), (' 13 ', ' thirteen '), (' 14 ',
+                                                   ' fourteen '), (' 15 ', ' fifteen '), (' 16 ', ' sixteen '),
+    (' 17 ', ' seventeen '), (' 18 ', ' eighteen '), (' 19 ', ' nineteen '), (" 20 ", " twenty "),
+    (" 21 ", " twenty one "), (" 24 ", " twenty four "), (" 25 ", " twenty five "),
+    (' 30 ', ' thirty '), (' 36 ', " thirty six "), (' 38 ', " thirty eight "),(" 40 ", " forty "), (" 50 ", " fifty "), (" 60 ", " sixty "),
+    (" 70 ", " seventy "),  (" 72 ", " seventy two "),  (" 80 ", " eighty "), (" 90 ", " ninety "), (" 99 ", " ninety nine "),
+    (" 100 ", " hundred "),(" 150 ", " one fifty "), (" 200 ", " two hundred "), (" 250 ", " two fifty "), (" 500 ", " five hundred "), (" 600 ", " six hundred "),
+    (" 1000 ", " thousand "), (" 2000 ", " two thousand "), ("10k", " ten thousand "), ("30k", " thirty thousand "),
+    ("60k", " sixty thousand "),
+    (r"\0s", "0"), (r"\s{2,}", " "), (r"[^A-Za-z0-9]", " "),
+    ('\s+', ' ')
+    
     
 
 
