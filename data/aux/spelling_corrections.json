@@ -28,12 +28,12 @@
     " III ": " three ", 
     " V ": " five ",
     " 1st": " first", 
-    " 2nd", " second", 
-    " 3rd", " third", 
-    " 4th", " fourth",
-    " 5th", " fifth",
+    " 2nd": " second", 
+    " 3rd":" third", 
+    " 4th": " fourth",
+    " 5th": " fifth",
     " 6th": " sixth",
-    " 7th", " seventh", 
+    " 7th": " seventh", 
     " 8th": " eigth", 
     " 9th": " ninth", 
     " 10th": " tenth",
@@ -88,11 +88,8 @@
     " 2000 ": " two thousand ", 
     "10k": " ten thousand ", 
     "30k": " thirty thousand ",
-    "60k": " sixty thousand ",
-    r"\0s": "0",
-    r"\s{2,}": " ",
-    r"[^A-Za-z0-9]": " ",
-    "\s+": " ",  # replace multi space with one single space
+    "60k": " sixty thousand "
+
      
     
 }
