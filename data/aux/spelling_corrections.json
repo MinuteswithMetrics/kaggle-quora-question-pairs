@@ -1,5 +1,5 @@
 {
-    ('f','Fahrenheit'),
+    "f','Fahrenheit",
     'mg': 'milligram',
     'ml': 'milliliter',
     'D.O.': 'doctor of osteopathic',
